@@ -28,6 +28,7 @@ public class ControlPersonal{
 		Asignatura as1 = new Asignatura("Programación", 9);
 		Asignatura as2 = new Asignatura("Entornos", 6);
 		Asignatura as3 = new Asignatura("Sistemas", 5);
+		Asignatura as4 = new Asignatura("Lenguaje de marcas", 4);
 		
 		Profesor pr1 = new Profesor("Nacho", "111A");
 		Profesor pr2 = new Profesor("Rosa", "222B");
@@ -43,6 +44,7 @@ public class ControlPersonal{
 		pr1.anyadirAsignatura(as1);
 		pr2.anyadirAsignatura(as2);
 		pr3.anyadirAsignatura(as3);
+		pr1.anyadirAsignatura(as4);
 		
 		al1.anyadirAsignatura(as1);
 		al1.anyadirAsignatura(as2);
@@ -53,6 +55,7 @@ public class ControlPersonal{
 		al3.anyadirAsignatura(as1);
 		al4.anyadirAsignatura(as3);
 		al4.anyadirAsignatura(as2);
+		al1.anyadirAsignatura(as4);
 		
 		anyadirPersona(pr1);
 		anyadirPersona(pr2);
