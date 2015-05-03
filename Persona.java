@@ -3,11 +3,9 @@
  */
 package unit8.unit8;
 import java.util.ArrayList;
+
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Collections;
-import java.util.List;
-import java.util.*;
 import java.util.Iterator;
 import static java.lang.System.out;
 
@@ -18,12 +16,13 @@ import static java.lang.System.out;
 public abstract class Persona {
 	protected String nombre;
 	protected String dni;
-	protected ArrayList<Asignatura>asignaturas;
+	protected ArrayList<Asignatura>asignaturas = new ArrayList<Asignatura>();
 	
 	public Persona(String nombre,String dni)
 	{
 		this.nombre = nombre;
 		this.dni = dni;
+
 	}
 	
 	public void anyadirAsignatura(Asignatura a)
